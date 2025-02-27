@@ -111,7 +111,7 @@ Surrounded by lush greenery and exotic flora, Kssemya is a sanctuary for nature 
 
 <li><ul><p>Unmatched Luxury and Comfort:<br>
 Our world-class amenities are designed to pamper you. Indulge in gourmet cuisine at our beachfront restaurant, unwind with a bespoke cocktail at the sunset bar, or rejuvenate your body and mind at our spa and wellness center. For the adventurous at heart, we offer activities such as yoga sessions, beach sports, and guided nature walks.</p></ul></li>
-                            <p><em>Maria...the Owner</em></p>
+                            <p><em>Mihir...the Owner</em></p>
                         </div>
                     </div>
                 </div>
@@ -421,149 +421,10 @@ Our world-class amenities are designed to pamper you. Indulge in gourmet cuisine
                     </div>
                 </div>
                 <div class="col-xl-7">
-                    <ul class="nav nav-tabs" id="customTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="first_tab" data-bs-toggle="tab" data-bs-target="#first_tab_pane" type="button" role="tab" aria-controls="first_tab_pane" aria-selected="true">Contact Us</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="second_tab" data-bs-toggle="tab" data-bs-target="#second_tab_pane" type="button" role="tab" aria-controls="second_tab_pane" aria-selected="false" tabindex="-1">Availability Request</button>
-                        </li>
-                    </ul>
-                    <!-- /tabs -->
-                    <div class="tab-content">
-                        
-                        <div class="tab-pane fade show active" id="first_tab_pane" role="tabpanel" aria-labelledby="first_tab" tabindex="0">
-                            <div class="contacts_wrapper">
-                                <div id="message-contact"></div>
-                                <form method="post" action="phpmailer/contact_template_email.php" id="contactform" autocomplete="off">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="form-floating mb-4">
-                                                <input class="form-control" type="text" id="name_contact" name="name_contact" placeholder="Name">
-                                                <label for="name_contact">Name</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-floating mb-4">
-                                                <input class="form-control" type="text" id="lastname_contact" name="lastname_contact" placeholder="Last Name">
-                                                <label for="lastname_contact">Last name</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /row -->
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="form-floating mb-4">
-                                                <input class="form-control" type="email" id="email_contact" name="email_contact" placeholder="Email">
-                                                <label for="email_contact">Email</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-floating mb-4">
-                                                <input class="form-control" type="text" id="phone_contact" name="phone_contact" placeholder="Telephone">
-                                                <label for="phone_contact">Telephone</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /row -->
-                                    <div class="form-floating mb-4">
-                                        <textarea class="form-control" placeholder="Message" id="message_contact" name="message_contact"></textarea>
-                                        <label for="message_contact">Message</label>
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col-md-6 mb-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-auto">
-                                                    <label for="verify_booking" class="col-form-label"><strong>Are you human?</strong></label>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <input type="text" name="verify_contact" id="verify_contact" class="form-control" placeholder="3 + 1 = ?">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <p class="text-end"><input class="btn_1 outline" type="submit" value="Submit" id="submit-contact"></p>
-                                        </div>
-                                    </div>
-                                    <!-- / row -->
-                                </form>
-                            </div><!-- /tab_contacts-->
-                        </div><!-- /tab-->
-                        <div class="tab-pane fade" id="second_tab_pane" role="tabpanel" aria-labelledby="second_tab" tabindex="0">
-                            <div class="booking_wrapper">
-                                <div id="message-booking"></div>
-                                <form method="post" action="phpmailer/reserve_template_email.php" id="bookingform" autocomplete="off">
-                                    <input type="hidden" id="date_booking" name="date_booking" readonly=""><span style="position: relative; pointer-events: none;" class="easepick-wrapper"></span>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="custom_select">
-                                                <select class="wide" name="rooms_booking" id="rooms_booking" style="display: none;">
-                                                    <option value="">Select Room</option>
-                                                    <option value="Double Room">Double Room</option>
-                                                    <option value="Deluxe Room">Deluxe Room</option>
-                                                    <option value="Superior Room">Superior Room</option>
-                                                    <option value="Junior Suite">Junior Suite</option>
-                                                </select><div class="nice-select wide" tabindex="0"><span class="current">Select Room</span><ul class="list"><li data-value="" class="option selected">Select Room</li><li data-value="Double Room" class="option">Double Room</li><li data-value="Deluxe Room" class="option">Deluxe Room</li><li data-value="Superior Room" class="option">Superior Room</li><li data-value="Junior Suite" class="option">Junior Suite</li></ul></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="qty-buttons mb-3 version_2">
-                                                        <input type="button" value="+" class="qtyplus" name="adults_booking">
-                                                        <input type="text" name="adults_booking" id="adults_booking" value="" class="qty form-control" placeholder="Adults">
-                                                        <input type="button" value="-" class="qtyminus" name="adults_booking">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="mb-3 qty-buttons mb-3 version_2">
-                                                        <input type="button" value="+" class="qtyplus" name="childs_booking">
-                                                        <input type="text" name="childs_booking" id="childs_booking" value="" class="qty form-control" placeholder="Childs">
-                                                        <input type="button" value="-" class="qtyminus" name="childs_booking">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- / row -->
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input type="text" name="name_booking" id="name_booking" class="form-control" placeholder="Name and Last Name">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input type="email" name="email_booking" id="email_booking" class="form-control" placeholder="Email">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- / row -->
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col-md-6 mb-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-auto">
-                                                    <label for="verify_booking" class="col-form-label"><strong>Are you human?</strong></label>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <input type="text" name="verify_booking" id="verify_booking" class="form-control" placeholder="3 + 1 = ?">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <p class="text-end"><input class="btn_1 outline" type="submit" value="Submit" id="submit-booking"></p>
-                                        </div>
-                                    </div>
-                                    <!-- / row -->
-                                </form>
-                            </div>
-                            <!-- / booking_wrapper -->
-                        </div><!-- /tab-->
-                        <!-- /contacts_wrapper-->
-                    </div>
-                    <!-- /tab_content-->
+                   <div class="map_contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d480.199365108028!2d73.73393806446248!3d15.66654482029868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1740576413357!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		
+	  </div>
                 </div>
             </div>
             <!-- /row -->
@@ -572,10 +433,7 @@ Our world-class amenities are designed to pamper you. Indulge in gourmet cuisine
 
     </main>
 
-    <div class="map_contact">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d480.199365108028!2d73.73393806446248!3d15.66654482029868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1740576413357!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		
-	  </div>
+    
     <!--/map_contact -->
     <div class="copy">
         <div class="container">
